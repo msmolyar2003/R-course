@@ -1,0 +1,36 @@
+---
+title: "Reuveny and Li (2003) Replication — Part 1"
+author: "Maria Smolyar"
+format: html
+editor: visual
+---
+
+# ##1. Overview of the Research Article 
+
+The Reuveny and Li (2003) article examines two related questions: 1) How does democracy affect income inequality within countries? and 2) How do different types of economic openness, including international trade and foreign investment, affect income inequality? The central argument is that democracy and economic openness should be studied together because both may influence the distribution of income. Previously, researchers examined these relationships separately. Reuveny and Li argue that excluding one could produce misleading conclusions about the other.
+
+The research is important because previous studies produced conflicting conclusions about whether democracy reduces income inequality. Scholars disagreed about whether economic globalization promotes a more equal distribution of income. Reuveny and Li attempt to address these disagreements through a statistical analysis of 69 countries from 1960 to 1996. Their unit of analysis is the country decade and they measure income inequality using a transformed Gini coefficient. The authors employ OLS regression to examine democracy, international trade, FDI, and portfolio investment. They also include GDP per capita, GDP per capita squared, and previous income inequality as control variables. The main model uses 142 observations and SEs clustered by country.
+
+The authors find that democracy and international trade are negatively associated with income inequality which shows that countries with higher levels of democracy and greater trade openness tend to exhibit more equal income distributions. Higher FDI is associated with a less equal distribution of income within countries. Portfolio investment inflows do not have a statistically significant relationship with income inequality. Moreover, past income inequality is strongly associated with current inequality, suggesting that unequal income distributions tend to persist over time. Overall, the findings make clear that different forms of economic openness are associated with (not caused by) different outcomes for income distribution.
+
+Reuveny and Li use causal terms for their findings but the study relies on observational data and OLS regression, which do not establish causality. The coefficients demonstrate statistical associations after accounting for the included control variables. A causal interpretation would mean that relevant omitted factors do not systematically influence both the independent variables and income inequality, that reverse causality does not bias the estimates, and that the variables are appropriately measured. For instance, unobserved economic characteristics could influence both democracy and inequality. Consequently, the findings provide evidence that supports authors' argument but causality requires much further work and evidence to be true.
+
+# ##2. Replication Results: Original vs. Replicated
+
+![](images/Side by Side Comparison of Tables .png)
+
+The cells do not differ beyond standard rounding differences so I found it unwise to highlight.
+
+If this table is confusing to read, the first section shows the variables and published coefficients. The second section shows the published standard errors and replicated coefficients. The third section shows the replicated Standard errors. All three sections belong to the same table. They are right below one another.
+
+The original paper has an adjusted R\^2 of 0.69 and my replication also has a replication of 0.69 (0.6867 before rounding). The observations match up (142=142).
+
+# ##3. Discrepancy Analysis 
+
+There were not really any substantial differences between my replicated results and those reported by the article I am using. This is likely because I used the author's provided dataset, the same regression variables, and the same sample of 142 observations. I also calculated standard errors clustered by country, consistent with the original study. The differences observed between my results and the paper's results can be explained away by simply rounding, as R displayed more decimal places than the original paper. The adjusted R squared also matches after rounding, with my replication producing 0.6867 compared to the published value of 0.69.
+
+# ##4. Data Pipeline 
+
+# ##5. Challenges Encountered
+
+# ##6. Acknowledgment of Assistance 
